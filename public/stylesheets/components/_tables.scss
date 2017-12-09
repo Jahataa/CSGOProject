@@ -1,0 +1,19 @@
+.statsTable {
+  margin-left: 10%;
+  font-family: $name-font;
+    tr {
+      color:#fff;
+      margin:auto;
+
+      }
+    td {
+      &:hover {
+        background-color: #142029;
+        color:	#DC143C;
+      }
+      border-radius: 8px;
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+  }

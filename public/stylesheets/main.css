@@ -1,0 +1,199 @@
+/*border-color*/
+/*rgb( 76,194, 232 );*/
+/*background-color*/
+/*rgb( 10,32, 53 )*/
+/*transformation*/
+/*transformation style*/
+/*transition time*/
+/*backface-visibility*/
+/*tab style*/
+.playerName .front, .playerName .back {
+  position: absolute; }
+
+/**button**/
+.button {
+  /*background-color: #008CBA; /* Blue */
+  border: 2px solid rgba(125, 199, 255, 0.1);
+  /* blueborder */
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  height: 12px;
+  transition: height 1000ms;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px; }
+  .button:hover {
+    background-color: #142029;
+    height: 22px;
+    color: #DC143C; }
+
+.statsTable {
+  margin-left: 10%;
+  font-family: "Indie Flower", cursive; }
+  .statsTable tr {
+    color: #fff;
+    margin: auto; }
+  .statsTable td {
+    border-radius: 8px;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; }
+    .statsTable td:hover {
+      background-color: #142029;
+      color: #DC143C; }
+
+/**Head div**/
+.Head {
+  background-color: rgba(125, 199, 255, 0.08);
+  height: 70px;
+  border-top: 3px solid rgba(125, 199, 255, 0.1);
+  border-bottom: 3px solid rgba(125, 199, 255, 0.1); }
+
+/*master div or wraper*/
+.master {
+  background-color: rgba(125, 199, 255, 0.08);
+  width: 50%;
+  min-width: 700px;
+  border: 3px solid rgba(125, 199, 255, 0.1);
+  margin: auto; }
+
+/*this is site footer */
+.Footer {
+  background-color: rgba(125, 199, 255, 0.08);
+  height: 100px;
+  border-top: 3px solid rgba(125, 199, 255, 0.1); }
+
+/*logo */
+.logo {
+  background-image: url("../images/logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: auto;
+  width: 486px;
+  height: 138px; }
+
+.search {
+  margin: auto; }
+
+.search, input:nth-child(1) {
+  margin: auto; }
+
+.search, input:nth-child(2) {
+  width: 500px; }
+
+/*playerName*/
+.playerName {
+  font-family: "Indie Flower", cursive;
+  width: 300px;
+  height: 80px;
+  margin: auto;
+  transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transition: 2.9s;
+  -webkit-transition: 2.9s;
+  -moz-transition: 2.9s;
+  -o-transition: 2.9s; }
+  .playerName:hover {
+    transform: rotatey(-180deg);
+    -webkit-transform: rotatey(-180deg);
+    -moz-transform: rotatey(-180deg);
+    -ms-transform: rotatey(-180deg);
+    -o-transform: rotatey(-180deg); }
+  .playerName .front, .playerName .back {
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden; }
+  .playerName .front {
+    z-index: 3;
+    font-size: 18px;
+    width: 300px;
+    height: 80px; }
+    .playerName .front strong {
+      color: #fff; }
+  .playerName .back {
+    z-index: 1;
+    font-size: 17px;
+    width: 300px;
+    height: 80px;
+    transform: rotatey(-180deg);
+    -webkit-transform: rotatey(-180deg);
+    -moz-transform: rotatey(-180deg);
+    -ms-transform: rotatey(-180deg);
+    -o-transform: rotatey(-180deg); }
+    .playerName .back p {
+      color: #fff; }
+
+.user {
+  margin: auto;
+  width: 500px; }
+  .user p {
+    color: #fff; }
+
+/*this is main div (home)*/
+.Main {
+  background-color: rgba(125, 199, 255, 0.08);
+  background-repeat: no-repeat;
+  background-image: url("../images/BG3.jpg");
+  background-size: cover;
+  background-position: center 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  display: none;
+  height: 450px;
+  width: 100%; }
+
+/*achivments style */
+.Achievments {
+  background-color: rgba(125, 199, 255, 0.08);
+  background-repeat: no-repeat;
+  background-image: url("../images/achivmet.jpg");
+  background-size: cover;
+  background-position: center 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  display: none;
+  height: 450px;
+  width: 100%; }
+  .Achievments img {
+    float: left; }
+
+/*Stats style */
+.Stats {
+  background-color: rgba(125, 199, 255, 0.08);
+  background-repeat: no-repeat;
+  background-image: url("../images/statos.jpg");
+  background-size: cover;
+  background-position: center 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  display: block;
+  height: 450px;
+  width: 100%; }
+
+/*Abouttheteam style */
+.Abouttheteam {
+  background-color: rgba(125, 199, 255, 0.08);
+  background-repeat: no-repeat;
+  background-image: url("../images/counter-strike-1920x1080-wallpaper387855.jpg");
+  background-size: cover;
+  background-position: center 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  display: none;
+  height: 450px;
+  width: 100%; }
+
+body, html {
+  background: #142029; }
+
+/*# sourceMappingURL=main.css.map */

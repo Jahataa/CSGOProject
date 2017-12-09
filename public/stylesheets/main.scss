@@ -1,0 +1,19 @@
+@import "helper/_variables";
+@import "helper/_mixins";
+@import "helper/_placeholder";
+@import "components/_buttons";
+@import "components/_tables.scss";
+@import "layouts/_head.scss";
+@import "layouts/_master.scss";
+@import "layouts/_footer.scss";
+@import "layouts/_logo.scss";
+@import "layouts/_search.scss";
+@import "layouts/_playerName.scss";
+@import "layouts/_user.scss";
+@import "pages/_main.scss";
+@import "pages/_achievments.scss";
+@import "pages/_stats.scss";
+@import "pages/_abouttheteam.scss";
+body , html{
+  background: #142029;
+}

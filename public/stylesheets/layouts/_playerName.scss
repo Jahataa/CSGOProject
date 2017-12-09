@@ -1,0 +1,40 @@
+/*playerName*/
+.playerName {
+	&:hover{
+			@include  transform (rotatey(-180deg));
+		}
+	font-family: $name-font;
+	width: 300px;
+ 	height: 80px;
+	margin:auto;
+	@include transform-style(preserve-3d);
+	@include transition(2.9s);
+
+	.front, .back {
+	  width: 100%;
+	  height: 100%;
+	 	@extend %absolute;
+	  @include backface-visibility(hidden);
+
+	}
+.front {
+	z-index: 3;
+	font-size: 18px;
+	width: 300px;
+ 	height: 80px;
+strong {
+	color: #fff;
+}
+}
+.back {
+	z-index: 1;
+	font-size: 17px;
+	width: 300px;
+ 	height: 80px;
+	@include transform(rotatey(-180deg));
+	p {
+		color:#fff;
+	}
+}
+
+}

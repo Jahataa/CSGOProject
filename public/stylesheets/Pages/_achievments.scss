@@ -1,0 +1,10 @@
+
+		/*achivments style */
+.Achievments{
+	@include tab("../images/achivmet.jpg", none);
+
+
+	img {
+		float:left;
+	}
+	}

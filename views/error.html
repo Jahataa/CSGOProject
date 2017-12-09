@@ -1,0 +1,10 @@
+{% extends "basic.html" %}
+{% block scripts %}
+{% endblock %}
+{% block contents %}
+  <h1>
+    {{error.status}}
+  </h1>
+  <p>{{message}}</p>
+  <p>{{error.stack}}</p>
+{% endblock %}

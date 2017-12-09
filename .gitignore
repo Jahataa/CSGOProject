@@ -1,0 +1,3 @@
+config.json
+public\stylesheets\.sass-cache*
+node_modules*
