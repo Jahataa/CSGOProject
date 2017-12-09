@@ -36,7 +36,7 @@ $(document).ready(function() {
             achievementElement.className = 'achievement';
 
             var achievementImage = document.createElement('img');
-            var img_name = 'images/achievements/' + achievement.apiname + '.jpg';
+            var img_name = 'images/achievements/' + achievement.apiname.toLowerCase() + '.jpg';
             achievementImage.src = img_name;
             achievementImage.onerror = (function (name) {
               return function () {
